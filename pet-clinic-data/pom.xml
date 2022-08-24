@@ -18,6 +18,8 @@
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 
+    <packaging>pom</packaging>
+
     <dependencies>
         <dependency>
             <groupId>com.h2database</groupId>
@@ -45,9 +47,5 @@
         </dependency>
 
     </dependencies>
-
-    <build>
-
-    </build>
 
 </project>
